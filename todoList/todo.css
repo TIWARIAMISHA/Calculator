@@ -1,0 +1,19 @@
+body{
+    padding-left: 500px;
+    background-color: aqua;
+    color :blue;
+    margin-top :30px;
+
+}
+#input-text 
+{
+    border : 2px solid black;
+}
+#Add-button 
+{
+    border : 2px solid black;
+}
+h1 
+{
+    padding-left : 10px;
+}

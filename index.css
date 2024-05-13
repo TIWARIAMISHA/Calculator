@@ -1,0 +1,39 @@
+body 
+{
+    margin-top: 80px;
+    padding-left:500px;
+}
+.calculator 
+{
+    width : 300px;
+    border : 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+.input 
+{
+
+    margin :20px;
+    margin-left:30px;
+    
+    padding :20px;
+    border-radius: 5px;
+}
+.Style
+{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.button 
+{
+    width:50px;
+    height:50px;
+    margin:10px;
+    padding:10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}

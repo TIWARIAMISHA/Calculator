@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "index.css">
+    <title>Document</title>
+</head>
+<body>
+     <div class = "calculator">
+        <input type ="text" class = "input" ></input>
+        <div class = "Style">
+        <button class = "button" onclick=" cardQuantity = cardQuantity + '1';
+        document.querySelector('.input').value = cardQuantity;">1</button>
+        <button class = "button" onclick = "cardQuantity = cardQuantity + '2';
+        document.querySelector('.input').value = cardQuantity">2</button>
+        <button class = "button" onclick = "cardQuantity =  cardQuantity+ '3';
+        document.querySelector('.input').value = cardQuantity ">3</button>
+        <button class = "button" onclick = "cardQuantity = cardQuantity + '+' ;
+        document.querySelector('.input').value = cardQuantity">+</button>
+        <button class = "button" onclick = "cardQuantity  = cardQuantity + '4';
+        document.querySelector('.input').value = cardQuantity">4</button>
+        <button class = "button" onclick="cardQuantity = cardQuantity + '5';
+        document.querySelector('.input').value = cardQuantity">5</button>
+        <button class = "button"  onclick=" cardQuantity = cardQuantity +'6' ;
+        document.querySelector('.input').value = cardQuantity " >6</button>
+        <button class = "button" onclick = "cardQuantity = cardQuantity +'7';
+        document.querySelector('.input').value = cardQuantity ">7</button>
+        <button class = "button" onclick = "cardQuantity =  cardQuantity + '-';
+        document.querySelector('input').value = cardQuantity">-</button>
+        <button class = "button " onclick="cardQuantity = cardQuantity + '8';
+        document.querySelector('.input').value = cardQuantity">8</button>
+        <button class = "button " onclick = "cardQuantity = cardQuantity + '9';
+        document.querySelector('.input').value = cardQuantity ">9</button> 
+        <button class = "button " onclick = "cardQuantity = cardQuantity + '0';
+        document.querySelector('input').value = cardQuantity ">0</button>
+        <button class = "button" onclick = "cardQuantity = cardQuantity + '/';
+        document.querySelector('.input').value = cardQuantity">/</button>
+        <button class = "button" onclick = "cardQuantity = cardQuantity + '*';
+        document.querySelector('.input').value = cardQuantity">*</button>
+        <button class ="button" onclick ="cardQuantity = cardQuantity + '.';
+        document.querySelector('.input').value = cardQuantity">.</button>
+        <button class = "button" onclick = "cardQuantity =' ' ;
+        document.querySelector('.input').value = cardQuantity"
+        >C</button>
+        <button class = "button" onclick = "cardQuantity = eval(cardQuantity);
+        document.querySelector('.input').value = cardQuantity"
+        >=</button>
+        
+        </div>
+     </div>
+     <script>
+        let cardQuantity = ' ';
+        document.querySelector('.input').value = cardQuantity;
+        </script>
+
+
+</body>
+</html>
